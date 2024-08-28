@@ -1,0 +1,82 @@
+.headercontainer{
+    background-color: #1f2937;
+    }
+    .container{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .headerimg{
+      display: flex;
+      align-items: flex-end;
+    }
+    .p{
+      display: flex;
+      flex-flow: row wrap;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .info{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    h1{
+      font-size: 48px;
+      color: #f9faf8;
+      font-weight: 900;
+      flex-wrap: column wrap;
+    }
+    ul{
+      font-size: 18px;
+      color: #e5e7eb;
+      justify-content: center;
+      align-items: flex-end;
+    }
+    h3{
+      font-size: 24px;
+      color: #f9faf8;
+    }
+    .actionbox {
+     display: flex;
+     flex-flow: row wrap;
+     background-color: #3882f6;
+     justify-content: flex-end;
+     align-content: center;
+     row-gap: 10px;
+     margin: 2px;
+  }
+     
+    h2{
+      color: #1f2937;
+      font-weight: 900;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      row-gap: 10px;
+    }
+    .inspobox{
+      display: flex;
+      flex-flow: row wrap;
+      background-color: #e5e7eb;
+      font-size: 36px;
+      font-style: italic;
+      color: #1f2937;
+      justify-content: center;
+      align-items: center;
+      row-gap: 10px;
+    }
+    .button{
+    border: 1px solid white;
+    color: white;
+    background-color: #3882f6;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+    
+  
