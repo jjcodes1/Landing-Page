@@ -1,11 +1,14 @@
 .headercontainer{
-    background-color: #1f2937;
-    display:flex;
+  display:flex;
+  flex-direction: column;
+  background-color: #1f2937;
+}
+    .headerlinks{
+      display:flex;
+      flex-direction: row;
     }
-    .headercontainer---
     .container{
       display: flex;
-      flex: 1 1 0%
       flex-flow: row wrap;
       justify-content: center;
       align-items: center;
