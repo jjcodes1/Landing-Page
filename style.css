@@ -1,8 +1,25 @@
 .headercontainer{
+  height: 300px;
+  padding: 20px;
+  border:none;
   display:flex;
-  flex-direction: column;
-  background-color: #1f2937;
+  background: #1f2937;
+  flex-flow: row wrap;
+  gap: 4px;
+  justify-content:center;
+  align-items: center;
 }
+
+
+/**.headerlinks{
+  display:flex;
+  flex-direction: row;
+
+}
+
+
+
+
     .headerlinks{
       display:flex;
       flex-direction: row;
